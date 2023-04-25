@@ -159,6 +159,10 @@ body {
     justify-content: space-between;
 }
 
+.icon-mob-mnu {
+    stroke: #2E2E2E;
+}
+
 .mob-menu-close {
     width: 24px;
     height: 24px;
@@ -213,7 +217,7 @@ body {
 
 .mob-soc-list {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 45px;
 }
 
@@ -1055,8 +1059,9 @@ body {
     .contacts-link {
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04;
         color: #434455;
         transition: color var(--dur-plas-ttf);
     }
@@ -1198,6 +1203,14 @@ body {
 
     .contacts-item:not(:last-child) {
         margin-bottom: 0;
+    }
+
+    .contacts-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02;
     }
 
     .hero {
