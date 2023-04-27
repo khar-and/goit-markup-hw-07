@@ -78,7 +78,7 @@ body {
 .subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     color: var(--title-color);
 }
 
@@ -1254,7 +1254,7 @@ body {
         display: inline-block;
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2px;
+        line-height: 1.2;
         color: var(--title-color);
     }
 
